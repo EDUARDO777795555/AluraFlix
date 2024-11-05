@@ -1,0 +1,70 @@
+body {
+    color: #e6e6e6; /* Texto em cinza claro mais brilhante */
+    background: linear-gradient(135deg, #1a1a1a, #0d0d0d); /* Fundo com gradiente suave */
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #0000FF; /* Borda inferior em laranja vibrante */
+    padding: 20px;
+    font-size: 32px;
+    color: #FFFF00	; /* Texto em laranja */
+    text-shadow: 2px 2px 4px #000000; /* Sombra no texto do cabeçalho */
+}
+
+.chamada {
+    background: #A020F0    ; /* Fundo roxo mais suave */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para destacar */
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 42px;
+    color: #f0f0f0; /* Título em branco mais claro */
+    text-shadow: 3px 3px 6px #000000; /* Sombra para dar mais destaque */
+}
+
+p {
+    font-size: 22px; /* Fonte um pouco maior */
+    color: #cccccc; /* Parágrafo em cinza mais claro */
+    line-height: 1.6; /* Espaçamento de linha para melhor legibilidade */
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.8; /* Ajustado para visibilidade ideal */
+    height: 220px; /* Tamanho levemente maior */
+    border-radius: 10px; /* Bordas arredondadas mais suaves */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Transição suave ao hover */
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid #FFFF00	; /* Borda laranja mais vibrante ao passar o mouse */
+    transform: scale(1.05); /* Leve zoom ao hover */
+}
+
+.categoria h2 {
+    color: #FFFF00	; /* Títulos em laranja vibrante */
+    font-weight: 600; /* Negrito para destaque */
+}
